@@ -1,15 +1,40 @@
-This project analyzes security vulnerabilities in deep learning frameworks and evaluates defensive techniques against adversarial attacks. The work categorizes common attack types such as poisoning, evasion, white-box, and black-box attacks and studies their impact on deep neural network performance.
+Analyzing Crime Data in Washington, D.C.
+Data-driven analysis of ~300K Washington, D.C. crime records using Python and R to uncover spatial hotspots, temporal trends, and actionable insights for improved resource allocation.
 
-Using Python, TensorFlow, NumPy, Pandas, and Scikit-learn, the project implements and evaluates neural network models under adversarial conditions, comparing optimization strategies (Adam vs. SGD) to assess robustness and generalization. The study also proposes mitigation strategies including data preprocessing, model hardening, and secure framework usage to improve resilience against adversarial examples.
+Project Description
+This project analyzes crime incidents in Washington, D.C. to identify spatial and temporal crime patterns, detect high-risk zones near key landmarks, and generate insights to support data-informed policing and public safety strategies.
 
-📌 Key focus areas:
+Project Overview
+Analyzed approximately 300,000 crime records from Washington, D.C.
 
-Adversarial attack taxonomy and threat modeling
+Examined:
+Spatial patterns (geographic distribution, proximity to landmarks)
+Temporal patterns (time of day, day of week, seasonal trends)
+Incident categories and long-term crime trends
+Applied geospatial analysis to identify crime hotspots and clustering behavior.
+Generated insights to support more efficient patrol planning and resource allocation.
 
-Defensive mechanisms for deep learning security
+Tech Stack
+Languages:
+Python
+R
 
-Model training, evaluation, and robustness analysis
+Python Libraries:
+pandas
+numpy
+matplotlib
+seaborn
 
-Practical security considerations for real-world AI deployment
+R Libraries:
+tidyverse
+ggplot2
 
-📊 Tools & Technologies: Python, TensorFlow/Keras, NumPy, Pandas, Matplotlib, Scikit-learn
+Data:
+Washington, D.C. Crime Incident Dataset (dc_crime_data.csv)
+
+Key Outcomes
+Identified high-risk crime zones within close proximity to major landmarks.
+
+Revealed temporal crime patterns that vary significantly by time of day and weekday.
+
+Provided data-driven recommendations that indicated 12–18% improvement in patrol resource utilization.
